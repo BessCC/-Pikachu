@@ -1,0 +1,26 @@
+*{
+    box-sizing:border-box;
+}
+.control{
+    position:absolute;
+    top:0;
+    right:20px;
+    display:flex;
+    flex-direction:column;
+}   
+.control > button{
+    outline: none;
+    margin:10px;
+    padding:8px 12px;
+}
+body{
+   
+}
+#wrapper{
+    position:fixed;
+    bottom:0;
+    height:50%;
+}
+.control > button.active{
+    background-color:#888;
+}
